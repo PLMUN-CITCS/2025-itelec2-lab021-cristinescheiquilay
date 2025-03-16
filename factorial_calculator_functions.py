@@ -6,7 +6,7 @@ def get_non_negative_integer() -> int:
                 return num
             print("Error: Please enter a non-negative integer.")  # No need for else
         except ValueError:
-            print("Error: Invalid input. Please enter a valid integer."
+            print("Error: Invalid input. Please enter a valid integer.")
 def calculate_factorial(n: int) -> int:
     factorial = 1
     for i in range(1, n + 1):
